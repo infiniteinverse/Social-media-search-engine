@@ -1,0 +1,241 @@
+{% extends "base.html" %}
+{% block title %}Search tweets · Tweet Archive{% endblock %}
+
+{% block masthead_extra %}
+  {% if look %}
+  <dl class="masthead__totals">
+    <div><dt>Tweets stored</dt><dd>{{ "{:,}".format(look.totals.tweets) }}</dd></div>
+    <div><dt>Accounts</dt><dd>{{ "{:,}".format(look.totals.users) }}</dd></div>
+    <div><dt>Ingestion runs</dt><dd>{{ look.topics|length }}</dd></div>
+  </dl>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+{% if db_error %}
+  <section class="notice notice--error" role="alert">
+    <h2>The database is not reachable</h2>
+    <p>{{ db_error }}</p>
+    <ol>
+      <li>Check that PostgreSQL is running and <code>DATABASE_URL</code> in <code>.env</code> is correct.</li>
+      <li>Create the tables: <code>psql "$DATABASE_URL" -f db/create_schema.sql</code></li>
+      <li>Load data: <code>python ingest/fetch_and_load.py --query "generative ai" --from-file ingest/sample_payload.json</code></li>
+    </ol>
+  </section>
+{% else %}
+<div class="layout">
+
+  <!-- ============ FILTER RAIL ============ -->
+  <aside class="rail">
+    <form method="get" action="{{ url_for('index') }}" class="filters" autocomplete="off">
+      <h2 class="rail__title">Filters</h2>
+
+      <label class="field">
+        <span>Text contains</span>
+        <input type="search" name="q" value="{{ s.q }}" placeholder="e.g. RAG pipeline" maxlength="200">
+      </label>
+
+      <label class="field">
+        <span>Hashtag</span>
+        <input name="hashtag" value="{{ s.hashtags|join(', ') }}" placeholder="python, llm (any of)">
+      </label>
+
+      <label class="field">
+        <span>Username</span>
+        <input name="username" value="{{ s.username }}" placeholder="mira_codes" maxlength="50">
+      </label>
+
+      <fieldset class="field field--pair">
+        <legend>Date range (UTC)</legend>
+        <input type="date" name="start_date" value="{{ s.start.isoformat() if s.start else '' }}" aria-label="Start date">
+        <input type="date" name="end_date" value="{{ s.end.isoformat() if s.end else '' }}" aria-label="End date">
+      </fieldset>
+
+      <div class="field field--pair">
+        <label>
+          <span>Language</span>
+          <select name="lang">
+            <option value="">Any</option>
+            {% for l in look.langs %}
+              <option value="{{ l.lang }}" {{ 'selected' if s.lang == l.lang }}>{{ l.lang|langname }} ({{ l.n }})</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label>
+          <span>Min. likes</span>
+          <input type="number" name="min_likes" min="0" value="{{ s.min_likes or '' }}" placeholder="0">
+        </label>
+      </div>
+
+      <label class="field">
+        <span>Ingestion run</span>
+        <select name="topic">
+          <option value="">All runs</option>
+          {% for t in look.topics %}
+            <option value="{{ t.topic_id }}" {{ 'selected' if s.topic == t.topic_id }}>
+              #{{ t.topic_id }} · {{ t.query|truncate(28) }} ({{ t.n }})
+            </option>
+          {% endfor %}
+        </select>
+      </label>
+
+      <div class="field field--pair">
+        <label>
+          <span>Sort by</span>
+          <select name="sort">
+            {% for key, (label, _) in sorts.items() %}
+              <option value="{{ key }}" {{ 'selected' if s.sort == key }}>{{ label }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label>
+          <span>Per page</span>
+          <select name="per_page">
+            {% for n in per_page_choices %}
+              <option value="{{ n }}" {{ 'selected' if s.per_page == n }}>{{ n }}</option>
+            {% endfor %}
+          </select>
+        </label>
+      </div>
+
+      <div class="actions">
+        <button type="submit" class="btn btn--primary">Search tweets</button>
+        <a class="btn btn--quiet" href="{{ clear_url }}">Reset</a>
+      </div>
+    </form>
+  </aside>
+
+  <!-- ============ RESULTS ============ -->
+  <section class="results" aria-live="polite">
+
+    {% for e in s.errors %}
+      <p class="notice notice--warn">{{ e }}</p>
+    {% endfor %}
+
+    <!-- Summary figures -->
+    <div class="summary">
+      <div class="summary__figures">
+        <div><b>{{ "{:,}".format(r.stats.total) }}</b><span>matching tweets</span></div>
+        <div><b>{{ "{:,}".format(r.stats.authors) }}</b><span>authors</span></div>
+        <div><b>{{ r.stats.likes|compact }}</b><span>total likes</span></div>
+        <div><b>{{ r.stats.retweets|compact }}</b><span>total retweets</span></div>
+      </div>
+
+      <div class="summary__charts">
+        <figure class="chart">
+          <figcaption>Tweets per day</figcaption>
+          {% if r.daily %}
+          {% set n = r.daily|length %}
+          {% set bw = 100 / n %}
+          <svg viewBox="0 0 100 40" preserveAspectRatio="none" role="img"
+               aria-label="Bar chart of matching tweets per day">
+            {% for d in r.daily %}
+              {% set h = (d.n / peak * 34)|round(1) %}
+              <rect x="{{ (loop.index0 * bw + bw * 0.12)|round(2) }}" y="{{ 38 - h }}"
+                    width="{{ (bw * 0.76)|round(2) }}" height="{{ h }}" rx="0.6">
+                <title>{{ d.day.strftime('%d %b') }}: {{ d.n }}</title>
+              </rect>
+            {% endfor %}
+            <line x1="0" x2="100" y1="38.5" y2="38.5"/>
+          </svg>
+          <div class="chart__axis"><span>{{ r.daily[0].day.strftime('%d %b') }}</span><span>{{ r.daily[-1].day.strftime('%d %b') }}</span></div>
+          {% else %}<p class="muted">No data.</p>{% endif %}
+        </figure>
+
+        <figure class="chart chart--tags">
+          <figcaption>Top hashtags in this result set</figcaption>
+          {% for t in r.top_tags %}
+            <a class="bar" href="{{ url_for('index', **s.as_args(hashtag=t.tag, page=1)) }}">
+              <span class="bar__label">#{{ t.tag }}</span>
+              <span class="bar__track"><i style="width: {{ (t.n / tag_peak * 100)|round }}%"></i></span>
+              <span class="bar__n">{{ t.n }}</span>
+            </a>
+          {% else %}<p class="muted">No hashtags.</p>{% endfor %}
+        </figure>
+      </div>
+    </div>
+
+    <!-- Effective filters -->
+    <div class="chips" aria-label="Active filters">
+      <span class="chips__label">Showing</span>
+      {% if chips %}
+        {% for c in chips %}
+          <a class="chip" href="{{ c.remove }}" title="Remove this filter">
+            <em>{{ c.label }}</em> {{ c.value }} <span aria-hidden="true">×</span>
+          </a>
+        {% endfor %}
+        <a class="chips__clear" href="{{ clear_url }}">Clear all</a>
+      {% else %}
+        <span class="chip chip--ghost">all stored tweets, no filters</span>
+      {% endif %}
+      <span class="chips__sort">sorted by {{ sorts[s.sort][0]|lower }}</span>
+    </div>
+
+    <!-- Table -->
+    {% if r.rows %}
+    <div class="table-wrap">
+      <table class="tweets">
+        <thead>
+          <tr>
+            <th class="col-id">Tweet ID</th>
+            <th class="col-date">Posted (UTC)</th>
+            <th class="col-user">Author</th>
+            <th class="col-text">Tweet</th>
+            <th class="col-tags">Hashtags</th>
+            <th class="num">Likes</th>
+            <th class="num">RTs</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for t in r.rows %}
+          <tr>
+            <td class="col-id"><code>{{ t.tweet_id[-8:] }}</code></td>
+            <td class="col-date">{{ t.created_at|stamp }}</td>
+            <td class="col-user">
+              <strong>@{{ t.username }}</strong>
+              {% if t.verified %}<span class="badge" title="Verified">verified</span>{% endif %}
+              <small>{{ t.display_name }}</small>
+            </td>
+            <td class="col-text">{{ t.text|highlight(s.q) }}
+              <small class="lang">{{ t.lang|langname }}</small>
+            </td>
+            <td class="col-tags">
+              {% for tag in t.hashtags %}
+                <a class="tag" href="{{ url_for('index', **s.as_args(hashtag=tag, page=1)) }}">#{{ tag }}</a>
+              {% endfor %}
+            </td>
+            <td class="num">{{ "{:,}".format(t.like_count) }}</td>
+            <td class="num">{{ "{:,}".format(t.retweet_count) }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <nav class="pager" aria-label="Pagination">
+      <span>Rows {{ offset + 1 }}–{{ offset + r.rows|length }} of {{ "{:,}".format(r.stats.total) }}</span>
+      <span class="pager__links">
+        {% if s.page > 1 %}<a class="btn btn--quiet" href="{{ page_url(s.page - 1) }}">Previous</a>{% endif %}
+        <b>Page {{ s.page }} of {{ r.pages }}</b>
+        {% if s.page < r.pages %}<a class="btn btn--quiet" href="{{ page_url(s.page + 1) }}">Next</a>{% endif %}
+      </span>
+    </nav>
+    {% else %}
+      <section class="notice">
+        <h2>No tweets match these filters</h2>
+        <p>Remove a filter above, or load more data with
+          <code>python ingest/fetch_and_load.py --query "your topic"</code>.</p>
+      </section>
+    {% endif %}
+
+    <!-- Proof of safe SQL -->
+    <details class="sqlbox">
+      <summary>Show the parameterized SQL that produced this page</summary>
+      <pre class="sql">{{ r.sql }}</pre>
+      <p class="sqlbox__label">Bound parameters (sent separately from the SQL text)</p>
+      <pre class="sql">{{ r.params|map('string')|list|join('\n') if r.params else '(none)' }}</pre>
+    </details>
+  </section>
+</div>
+{% endif %}
+{% endblock %}

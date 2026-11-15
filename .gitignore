@@ -1,0 +1,74 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Database files and exports
+*.db
+*.sqlite3
+*.dump
+*.bak
+
+# Generated data and temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Screenshots and collected datasets
+screenshots/
+datasets/
+data/raw/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# Flask instance folder
+instance/
+
+# assignment folder
+*_asg4_tweet_fetching_and_displaying.docx
+*.docx
+*.pdf
+# Personal assignment submission
+Assignment4_*.pdf
+submission/
+docs/screenshots/

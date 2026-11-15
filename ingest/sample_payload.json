@@ -1,0 +1,2160 @@
+{
+  "data": [
+    {
+      "id": "1850000000000221732",
+      "author_id": "1007",
+      "text": "Structured outputs made our JSON parsing bugs disappear overnight. Link in replies. #LLM #Python",
+      "created_at": "2026-11-14T13:43:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 1083,
+        "retweet_count": 60,
+        "reply_count": 22,
+        "quote_count": 37
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000190056",
+      "author_id": "1003",
+      "text": "Generative AI in the classroom: what actually helped students and what was hype. More soon. #EdTech #GenerativeAI",
+      "created_at": "2026-11-14T10:30:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 40,
+        "retweet_count": 5,
+        "reply_count": 2,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "EdTech"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000356355",
+      "author_id": "1009",
+      "text": "Un guide pratique pour évaluer les modèles de langage sans benchmarks publics. More soon. #IA #LLM",
+      "created_at": "2026-11-14T09:52:00.000Z",
+      "lang": "fr",
+      "public_metrics": {
+        "like_count": 138,
+        "retweet_count": 11,
+        "reply_count": 1,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "IA"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000071271",
+      "author_id": "1001",
+      "text": "Structured outputs made our JSON parsing bugs disappear overnight. Link in replies. #LLM #Python",
+      "created_at": "2026-11-14T08:53:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 1996,
+        "retweet_count": 500,
+        "reply_count": 186,
+        "quote_count": 35
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000546411",
+      "author_id": "1012",
+      "text": "Open-weight models are closing the gap faster than anyone predicted a year ago. Thoughts? #OpenSource #GenerativeAI",
+      "created_at": "2026-11-14T03:17:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 39,
+        "retweet_count": 5,
+        "reply_count": 2,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "OpenSource"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000253408",
+      "author_id": "1009",
+      "text": "Reading the new alignment paper on weak-to-strong generalization. Dense but worth it. Thoughts? #AI #Research",
+      "created_at": "2026-11-14T02:36:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 28,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "AI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Research"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000150461",
+      "author_id": "1011",
+      "text": "Fine-tuning vs. prompting vs. RAG - a decision tree I use with clients. Thoughts? #LLM #MLOps #RAG",
+      "created_at": "2026-11-13T22:57:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 8,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "MLOps"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "RAG"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000372193",
+      "author_id": "1002",
+      "text": "Reading the new alignment paper on weak-to-strong generalization. Dense but worth it. Thread below. #AI #Research",
+      "created_at": "2026-11-13T21:57:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 77,
+        "retweet_count": 16,
+        "reply_count": 3,
+        "quote_count": 3
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "AI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Research"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000451383",
+      "author_id": "1006",
+      "text": "Fine-tuning vs. prompting vs. RAG - a decision tree I use with clients. More soon. #LLM #MLOps #RAG",
+      "created_at": "2026-11-13T20:21:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 48,
+        "retweet_count": 8,
+        "reply_count": 0,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "MLOps"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "RAG"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000332598",
+      "author_id": "1002",
+      "text": "Un guide pratique pour évaluer les modèles de langage sans benchmarks publics. Curious what you all think. #IA #LLM",
+      "created_at": "2026-11-13T18:34:00.000Z",
+      "lang": "fr",
+      "public_metrics": {
+        "like_count": 1714,
+        "retweet_count": 228,
+        "reply_count": 57,
+        "quote_count": 3
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "IA"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000023757",
+      "author_id": "1006",
+      "text": "Un guide pratique pour évaluer les modèles de langage sans benchmarks publics. More soon. #IA #LLM",
+      "created_at": "2026-11-13T17:26:00.000Z",
+      "lang": "fr",
+      "public_metrics": {
+        "like_count": 74,
+        "retweet_count": 9,
+        "reply_count": 1,
+        "quote_count": 2
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "IA"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000182137",
+      "author_id": "1005",
+      "text": "Generative AI in the classroom: what actually helped students and what was hype. Curious what you all think. #EdTech #GenerativeAI",
+      "created_at": "2026-11-13T16:06:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 59,
+        "retweet_count": 3,
+        "reply_count": 1,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "EdTech"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000000000",
+      "author_id": "1011",
+      "text": "Generative AI in the classroom: what actually helped students and what was hype. Curious what you all think. #EdTech #GenerativeAI",
+      "created_at": "2026-11-13T13:54:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 107,
+        "retweet_count": 26,
+        "reply_count": 6,
+        "quote_count": 3
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "EdTech"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000514735",
+      "author_id": "1011",
+      "text": "Structured outputs made our JSON parsing bugs disappear overnight. Thread below. #LLM #Python",
+      "created_at": "2026-11-13T12:53:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 54,
+        "retweet_count": 3,
+        "reply_count": 1,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000443464",
+      "author_id": "1004",
+      "text": "Just shipped a RAG pipeline that cut our support-ticket triage time by 40%. #GenerativeAI #RAG #Python",
+      "created_at": "2026-11-13T08:56:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 68,
+        "retweet_count": 8,
+        "reply_count": 5,
+        "quote_count": 2
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "RAG"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000483059",
+      "author_id": "1008",
+      "text": "La IA generativa está cambiando cómo escribimos documentación técnica. More soon. #IAgenerativa #Desarrollo",
+      "created_at": "2026-11-13T05:33:00.000Z",
+      "lang": "es",
+      "public_metrics": {
+        "like_count": 1619,
+        "retweet_count": 183,
+        "reply_count": 126,
+        "quote_count": 16
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "IAgenerativa"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Desarrollo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000411788",
+      "author_id": "1005",
+      "text": "Structured outputs made our JSON parsing bugs disappear overnight. Thread below. #LLM #Python",
+      "created_at": "2026-11-13T02:14:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 68,
+        "retweet_count": 7,
+        "reply_count": 6,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000316760",
+      "author_id": "1011",
+      "text": "Neue Studie zeigt: Prompt-Design beeinflusst die Antwortqualität deutlich. #KI #LLM",
+      "created_at": "2026-11-12T18:48:00.000Z",
+      "lang": "de",
+      "public_metrics": {
+        "like_count": 1646,
+        "retweet_count": 307,
+        "reply_count": 55,
+        "quote_count": 58
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "KI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000506816",
+      "author_id": "1006",
+      "text": "Local inference on a laptop is finally pleasant. Quantized 8B model, instant replies. Link in replies. #OpenSource #AI",
+      "created_at": "2026-11-12T16:27:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 834,
+        "retweet_count": 200,
+        "reply_count": 80,
+        "quote_count": 40
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "OpenSource"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "AI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000166299",
+      "author_id": "1011",
+      "text": "Open-weight models are closing the gap faster than anyone predicted a year ago. Thoughts? #OpenSource #GenerativeAI",
+      "created_at": "2026-11-12T15:08:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 108,
+        "retweet_count": 19,
+        "reply_count": 9,
+        "quote_count": 2
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "OpenSource"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000158380",
+      "author_id": "1008",
+      "text": "Structured outputs made our JSON parsing bugs disappear overnight. #LLM #Python",
+      "created_at": "2026-11-12T14:27:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 5,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000015838",
+      "author_id": "1006",
+      "text": "Taller gratuito sobre modelos de lenguaje y Python este sábado. More soon. #Python #IA",
+      "created_at": "2026-11-12T08:31:00.000Z",
+      "lang": "es",
+      "public_metrics": {
+        "like_count": 89,
+        "retweet_count": 26,
+        "reply_count": 8,
+        "quote_count": 3
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "IA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000403869",
+      "author_id": "1007",
+      "text": "Taller gratuito sobre modelos de lenguaje y Python este sábado. Curious what you all think. #Python #IA",
+      "created_at": "2026-11-12T07:48:00.000Z",
+      "lang": "es",
+      "public_metrics": {
+        "like_count": 32,
+        "retweet_count": 5,
+        "reply_count": 1,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "IA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000324679",
+      "author_id": "1009",
+      "text": "Voice agents are the underrated frontier: latency is the whole game. #AI #Agents",
+      "created_at": "2026-11-12T06:38:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 78,
+        "retweet_count": 15,
+        "reply_count": 7,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "AI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Agents"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000047514",
+      "author_id": "1010",
+      "text": "Generative AI in the classroom: what actually helped students and what was hype. #EdTech #GenerativeAI",
+      "created_at": "2026-11-12T04:37:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 12,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "EdTech"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000388031",
+      "author_id": "1011",
+      "text": "Prompt caching just halved our inference bill. If you run long system prompts, try it. Link in replies. #LLM #Python",
+      "created_at": "2026-11-12T04:12:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 110,
+        "retweet_count": 19,
+        "reply_count": 4,
+        "quote_count": 4
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000300922",
+      "author_id": "1006",
+      "text": "Neue Studie zeigt: Prompt-Design beeinflusst die Antwortqualität deutlich. More soon. #KI #LLM",
+      "created_at": "2026-11-12T02:26:00.000Z",
+      "lang": "de",
+      "public_metrics": {
+        "like_count": 70,
+        "retweet_count": 9,
+        "reply_count": 1,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "KI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000007919",
+      "author_id": "1008",
+      "text": "Built a Flask dashboard over 10k stored tweets in an afternoon. SQL is still undefeated. Curious what you all think. #Flask #Postgres #Python",
+      "created_at": "2026-11-12T00:24:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 450,
+        "retweet_count": 34,
+        "reply_count": 37,
+        "quote_count": 10
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Flask"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Postgres"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000435545",
+      "author_id": "1009",
+      "text": "Just shipped a RAG pipeline that cut our support-ticket triage time by 40%. Link in replies. #GenerativeAI #RAG #Python",
+      "created_at": "2026-11-11T21:04:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 1818,
+        "retweet_count": 469,
+        "reply_count": 149,
+        "quote_count": 77
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "RAG"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000095028",
+      "author_id": "1002",
+      "text": "Dataset licensing is the next big conversation for generative AI. We need clear provenance. Thread below. #GenerativeAI #Ethics",
+      "created_at": "2026-11-11T17:10:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 94,
+        "retweet_count": 6,
+        "reply_count": 7,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Ethics"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000522654",
+      "author_id": "1004",
+      "text": "La IA generativa está cambiando cómo escribimos documentación técnica. Curious what you all think. #IAgenerativa #Desarrollo",
+      "created_at": "2026-11-11T16:01:00.000Z",
+      "lang": "es",
+      "public_metrics": {
+        "like_count": 125,
+        "retweet_count": 10,
+        "reply_count": 8,
+        "quote_count": 5
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "IAgenerativa"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Desarrollo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000467221",
+      "author_id": "1001",
+      "text": "Open-weight models are closing the gap faster than anyone predicted a year ago. #OpenSource #GenerativeAI",
+      "created_at": "2026-11-11T15:57:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 11,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "OpenSource"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000538492",
+      "author_id": "1001",
+      "text": "Just shipped a RAG pipeline that cut our support-ticket triage time by 40%. More soon. #GenerativeAI #RAG #Python",
+      "created_at": "2026-11-11T13:22:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 45,
+        "retweet_count": 3,
+        "reply_count": 4,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "RAG"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000340517",
+      "author_id": "1003",
+      "text": "Built a Flask dashboard over 10k stored tweets in an afternoon. SQL is still undefeated. Thoughts? #Flask #Postgres #Python",
+      "created_at": "2026-11-11T09:56:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 73,
+        "retweet_count": 10,
+        "reply_count": 7,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Flask"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Postgres"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000498897",
+      "author_id": "1009",
+      "text": "Generative AI in the classroom: what actually helped students and what was hype. More soon. #EdTech #GenerativeAI",
+      "created_at": "2026-11-11T08:23:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 23,
+        "retweet_count": 6,
+        "reply_count": 2,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "EdTech"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000261327",
+      "author_id": "1011",
+      "text": "Fine-tuning vs. prompting vs. RAG - a decision tree I use with clients. More soon. #LLM #MLOps #RAG",
+      "created_at": "2026-11-11T07:24:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 637,
+        "retweet_count": 88,
+        "reply_count": 28,
+        "quote_count": 7
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "MLOps"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "RAG"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000490978",
+      "author_id": "1007",
+      "text": "Structured outputs made our JSON parsing bugs disappear overnight. More soon. #LLM #Python",
+      "created_at": "2026-11-11T06:54:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 13,
+        "retweet_count": 3,
+        "reply_count": 1,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000063352",
+      "author_id": "1007",
+      "text": "Neue Studie zeigt: Prompt-Design beeinflusst die Antwortqualität deutlich. Curious what you all think. #KI #LLM",
+      "created_at": "2026-11-11T05:55:00.000Z",
+      "lang": "de",
+      "public_metrics": {
+        "like_count": 128,
+        "retweet_count": 28,
+        "reply_count": 10,
+        "quote_count": 2
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "KI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000395950",
+      "author_id": "1007",
+      "text": "Structured outputs made our JSON parsing bugs disappear overnight. Thread below. #LLM #Python",
+      "created_at": "2026-11-11T04:16:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 118,
+        "retweet_count": 12,
+        "reply_count": 8,
+        "quote_count": 2
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000245489",
+      "author_id": "1005",
+      "text": "Tutorial: build a semantic search over your own notes with embeddings and Postgres pgvector. #Postgres #Python #GenerativeAI",
+      "created_at": "2026-11-10T23:40:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 31,
+        "retweet_count": 3,
+        "reply_count": 1,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Postgres"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000475140",
+      "author_id": "1011",
+      "text": "Un guide pratique pour évaluer les modèles de langage sans benchmarks publics. More soon. #IA #LLM",
+      "created_at": "2026-11-10T20:44:00.000Z",
+      "lang": "fr",
+      "public_metrics": {
+        "like_count": 81,
+        "retweet_count": 16,
+        "reply_count": 2,
+        "quote_count": 3
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "IA"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000134623",
+      "author_id": "1001",
+      "text": "Voice agents are the underrated frontier: latency is the whole game. #AI #Agents",
+      "created_at": "2026-11-10T19:10:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 6,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "AI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Agents"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000110866",
+      "author_id": "1011",
+      "text": "Generative AI in the classroom: what actually helped students and what was hype. Link in replies. #EdTech #GenerativeAI",
+      "created_at": "2026-11-10T16:22:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 80,
+        "retweet_count": 17,
+        "reply_count": 4,
+        "quote_count": 3
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "EdTech"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000554330",
+      "author_id": "1009",
+      "text": "Neue Studie zeigt: Prompt-Design beeinflusst die Antwortqualität deutlich. Thoughts? #KI #LLM",
+      "created_at": "2026-11-10T14:29:00.000Z",
+      "lang": "de",
+      "public_metrics": {
+        "like_count": 23,
+        "retweet_count": 3,
+        "reply_count": 1,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "KI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000031676",
+      "author_id": "1012",
+      "text": "Prompt caching just halved our inference bill. If you run long system prompts, try it. #LLM #Python",
+      "created_at": "2026-11-10T13:12:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 108,
+        "retweet_count": 7,
+        "reply_count": 9,
+        "quote_count": 2
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000237570",
+      "author_id": "1011",
+      "text": "Local inference on a laptop is finally pleasant. Quantized 8B model, instant replies. #OpenSource #AI",
+      "created_at": "2026-11-10T11:45:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 64,
+        "retweet_count": 9,
+        "reply_count": 6,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "OpenSource"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "AI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000364274",
+      "author_id": "1001",
+      "text": "Dataset licensing is the next big conversation for generative AI. We need clear provenance. More soon. #GenerativeAI #Ethics",
+      "created_at": "2026-11-10T11:39:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 1359,
+        "retweet_count": 141,
+        "reply_count": 32,
+        "quote_count": 41
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Ethics"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000419707",
+      "author_id": "1008",
+      "text": "Prompt caching just halved our inference bill. If you run long system prompts, try it. Curious what you all think. #LLM #Python",
+      "created_at": "2026-11-10T04:22:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 140,
+        "retweet_count": 32,
+        "reply_count": 9,
+        "quote_count": 2
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000205894",
+      "author_id": "1002",
+      "text": "Built a Flask dashboard over 10k stored tweets in an afternoon. SQL is still undefeated. Link in replies. #Flask #Postgres #Python",
+      "created_at": "2026-11-09T18:51:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 15,
+        "retweet_count": 3,
+        "reply_count": 1,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Flask"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Postgres"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000087109",
+      "author_id": "1002",
+      "text": "Taller gratuito sobre modelos de lenguaje y Python este sábado. Thread below. #Python #IA",
+      "created_at": "2026-11-09T18:12:00.000Z",
+      "lang": "es",
+      "public_metrics": {
+        "like_count": 131,
+        "retweet_count": 15,
+        "reply_count": 12,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "IA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000102947",
+      "author_id": "1001",
+      "text": "Just shipped a RAG pipeline that cut our support-ticket triage time by 40%. #GenerativeAI #RAG #Python",
+      "created_at": "2026-11-09T14:43:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 21,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "RAG"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000380112",
+      "author_id": "1006",
+      "text": "Generative AI in the classroom: what actually helped students and what was hype. Thoughts? #EdTech #GenerativeAI",
+      "created_at": "2026-11-09T13:25:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 88,
+        "retweet_count": 6,
+        "reply_count": 7,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "EdTech"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000229651",
+      "author_id": "1006",
+      "text": "Voice agents are the underrated frontier: latency is the whole game. Link in replies. #AI #Agents",
+      "created_at": "2026-11-09T13:24:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 9,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "AI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Agents"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000142542",
+      "author_id": "1008",
+      "text": "Voice agents are the underrated frontier: latency is the whole game. #AI #Agents",
+      "created_at": "2026-11-09T10:31:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 43,
+        "retweet_count": 3,
+        "reply_count": 2,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "AI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Agents"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000293003",
+      "author_id": "1004",
+      "text": "Just shipped a RAG pipeline that cut our support-ticket triage time by 40%. More soon. #GenerativeAI #RAG #Python",
+      "created_at": "2026-11-09T09:26:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 1028,
+        "retweet_count": 225,
+        "reply_count": 90,
+        "quote_count": 47
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "RAG"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000562249",
+      "author_id": "1001",
+      "text": "Dataset licensing is the next big conversation for generative AI. We need clear provenance. Curious what you all think. #GenerativeAI #Ethics",
+      "created_at": "2026-11-09T09:21:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 507,
+        "retweet_count": 70,
+        "reply_count": 43,
+        "quote_count": 17
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Ethics"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000118785",
+      "author_id": "1004",
+      "text": "Generative KI im Mittelstand: Erste Erfahrungen aus drei Pilotprojekten. Curious what you all think. #KI #GenerativeAI",
+      "created_at": "2026-11-09T08:46:00.000Z",
+      "lang": "de",
+      "public_metrics": {
+        "like_count": 129,
+        "retweet_count": 15,
+        "reply_count": 6,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "KI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000348436",
+      "author_id": "1011",
+      "text": "Just shipped a RAG pipeline that cut our support-ticket triage time by 40%. Curious what you all think. #GenerativeAI #RAG #Python",
+      "created_at": "2026-11-09T06:51:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 91,
+        "retweet_count": 23,
+        "reply_count": 8,
+        "quote_count": 4
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "RAG"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000055433",
+      "author_id": "1003",
+      "text": "Tutorial: build a semantic search over your own notes with embeddings and Postgres pgvector. Thread below. #Postgres #Python #GenerativeAI",
+      "created_at": "2026-11-09T06:17:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 31,
+        "retweet_count": 6,
+        "reply_count": 1,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Postgres"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000039595",
+      "author_id": "1010",
+      "text": "Neue Studie zeigt: Prompt-Design beeinflusst die Antwortqualität deutlich. Curious what you all think. #KI #LLM",
+      "created_at": "2026-11-09T03:50:00.000Z",
+      "lang": "de",
+      "public_metrics": {
+        "like_count": 134,
+        "retweet_count": 15,
+        "reply_count": 6,
+        "quote_count": 6
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "KI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000174218",
+      "author_id": "1008",
+      "text": "Open-weight models are closing the gap faster than anyone predicted a year ago. Link in replies. #OpenSource #GenerativeAI",
+      "created_at": "2026-11-09T02:03:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 106,
+        "retweet_count": 12,
+        "reply_count": 2,
+        "quote_count": 2
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "OpenSource"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000126704",
+      "author_id": "1005",
+      "text": "Built a Flask dashboard over 10k stored tweets in an afternoon. SQL is still undefeated. Curious what you all think. #Flask #Postgres #Python",
+      "created_at": "2026-11-08T23:17:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 38,
+        "retweet_count": 6,
+        "reply_count": 1,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Flask"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Postgres"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000079190",
+      "author_id": "1008",
+      "text": "Dataset licensing is the next big conversation for generative AI. We need clear provenance. Thread below. #GenerativeAI #Ethics",
+      "created_at": "2026-11-08T22:19:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 127,
+        "retweet_count": 32,
+        "reply_count": 7,
+        "quote_count": 5
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Ethics"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000285084",
+      "author_id": "1001",
+      "text": "Open-weight models are closing the gap faster than anyone predicted a year ago. Curious what you all think. #OpenSource #GenerativeAI",
+      "created_at": "2026-11-08T21:33:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 87,
+        "retweet_count": 18,
+        "reply_count": 6,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "OpenSource"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000530573",
+      "author_id": "1009",
+      "text": "Local inference on a laptop is finally pleasant. Quantized 8B model, instant replies. Thread below. #OpenSource #AI",
+      "created_at": "2026-11-08T14:43:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 39,
+        "retweet_count": 9,
+        "reply_count": 0,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "OpenSource"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "AI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000277165",
+      "author_id": "1005",
+      "text": "Just shipped a RAG pipeline that cut our support-ticket triage time by 40%. #GenerativeAI #RAG #Python",
+      "created_at": "2026-11-08T14:09:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 67,
+        "retweet_count": 19,
+        "reply_count": 1,
+        "quote_count": 2
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "RAG"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Python"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000269246",
+      "author_id": "1003",
+      "text": "Our team replaced 3 internal tools with a single agent workflow. Lessons learned in the thread. Thoughts? #AI #Agents",
+      "created_at": "2026-11-08T13:40:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 2337,
+        "retweet_count": 516,
+        "reply_count": 106,
+        "quote_count": 29
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "AI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Agents"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000427626",
+      "author_id": "1011",
+      "text": "Voice agents are the underrated frontier: latency is the whole game. Thread below. #AI #Agents",
+      "created_at": "2026-11-08T12:43:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 108,
+        "retweet_count": 14,
+        "reply_count": 4,
+        "quote_count": 4
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "AI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Agents"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000197975",
+      "author_id": "1005",
+      "text": "Fine-tuning vs. prompting vs. RAG - a decision tree I use with clients. More soon. #LLM #MLOps #RAG",
+      "created_at": "2026-11-08T10:09:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 54,
+        "retweet_count": 10,
+        "reply_count": 3,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "LLM"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "MLOps"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "RAG"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000308841",
+      "author_id": "1011",
+      "text": "Generative AI in the classroom: what actually helped students and what was hype. Thread below. #EdTech #GenerativeAI",
+      "created_at": "2026-11-08T03:23:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 40,
+        "retweet_count": 8,
+        "reply_count": 0,
+        "quote_count": 1
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "EdTech"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000213813",
+      "author_id": "1005",
+      "text": "Generative AI in the classroom: what actually helped students and what was hype. Link in replies. #EdTech #GenerativeAI",
+      "created_at": "2026-11-08T01:20:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 74,
+        "retweet_count": 20,
+        "reply_count": 1,
+        "quote_count": 0
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "EdTech"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "GenerativeAI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1850000000000459302",
+      "author_id": "1004",
+      "text": "Our team replaced 3 internal tools with a single agent workflow. Lessons learned in the thread. Thread below. #AI #Agents",
+      "created_at": "2026-11-07T20:25:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 79,
+        "retweet_count": 5,
+        "reply_count": 3,
+        "quote_count": 2
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "AI"
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "tag": "Agents"
+          }
+        ]
+      }
+    }
+  ],
+  "includes": {
+    "users": [
+      {
+        "id": "1001",
+        "username": "mira_codes",
+        "name": "Mira Okafor",
+        "verified": true,
+        "created_at": "2014-03-02T10:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 48210
+        }
+      },
+      {
+        "id": "1002",
+        "username": "devsamir",
+        "name": "Samir Rao",
+        "verified": false,
+        "created_at": "2014-03-03T10:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 9320
+        }
+      },
+      {
+        "id": "1003",
+        "username": "ailab_weekly",
+        "name": "AI Lab Weekly",
+        "verified": true,
+        "created_at": "2014-03-04T10:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 120400
+        }
+      },
+      {
+        "id": "1004",
+        "username": "priya_ml",
+        "name": "Priya Nair",
+        "verified": false,
+        "created_at": "2014-03-05T10:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 15780
+        }
+      },
+      {
+        "id": "1005",
+        "username": "tomasz_dev",
+        "name": "Tomasz Kowalski",
+        "verified": false,
+        "created_at": "2014-03-06T10:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 2210
+        }
+      },
+      {
+        "id": "1006",
+        "username": "luciaIA",
+        "name": "Lucía Fernández",
+        "verified": false,
+        "created_at": "2014-03-07T10:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 6540
+        }
+      },
+      {
+        "id": "1007",
+        "username": "hanna_data",
+        "name": "Hanna Weber",
+        "verified": false,
+        "created_at": "2014-03-08T10:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 3890
+        }
+      },
+      {
+        "id": "1008",
+        "username": "opensourcenik",
+        "name": "Nikhil Verma",
+        "verified": false,
+        "created_at": "2014-03-01T10:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 27100
+        }
+      },
+      {
+        "id": "1009",
+        "username": "the_prompt_desk",
+        "name": "The Prompt Desk",
+        "verified": true,
+        "created_at": "2014-03-02T10:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 88300
+        }
+      },
+      {
+        "id": "1010",
+        "username": "chloe_builds",
+        "name": "Chloe Martin",
+        "verified": false,
+        "created_at": "2014-03-03T10:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 1760
+        }
+      },
+      {
+        "id": "1011",
+        "username": "rahul_pythonista",
+        "name": "Rahul Das",
+        "verified": false,
+        "created_at": "2014-03-04T10:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 5120
+        }
+      },
+      {
+        "id": "1012",
+        "username": "kenji_ai",
+        "name": "Kenji Mori",
+        "verified": false,
+        "created_at": "2014-03-05T10:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 12040
+        }
+      }
+    ]
+  },
+  "meta": {
+    "result_count": 72
+  }
+}

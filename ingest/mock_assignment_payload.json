@@ -1,0 +1,137 @@
+
+{
+  "data": [
+    {
+      "id": "100001",
+      "author_id": "U001",
+      "text": "Generative AI is transforming software development. Large language models are making coding assistants more powerful. #GenAI #LLM",
+      "created_at": "2026-11-14T10:30:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 150,
+        "retweet_count": 35,
+        "reply_count": 12,
+        "quote_count": 8
+      },
+      "entities": {
+        "hashtags": [
+          {"tag": "GenAI"},
+          {"tag": "LLM"}
+        ]
+      }
+    },
+    {
+      "id": "100002",
+      "author_id": "U002",
+      "text": "Machine Learning models can identify complex patterns in large datasets. Python makes experimentation easier. #MachineLearning #Python",
+      "created_at": "2026-11-14T11:15:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 85,
+        "retweet_count": 20,
+        "reply_count": 9,
+        "quote_count": 4
+      },
+      "entities": {
+        "hashtags": [
+          {"tag": "MachineLearning"},
+          {"tag": "Python"}
+        ]
+      }
+    },
+    {
+      "id": "100003",
+      "author_id": "U003",
+      "text": "Deep Learning and neural networks are opening new possibilities in computer vision and natural language processing. #AI #DeepLearning",
+      "created_at": "2026-11-14T12:45:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 230,
+        "retweet_count": 65,
+        "reply_count": 18,
+        "quote_count": 11
+      },
+      "entities": {
+        "hashtags": [
+          {"tag": "AI"},
+          {"tag": "DeepLearning"}
+        ]
+      }
+    },
+    {
+      "id": "100004",
+      "author_id": "U001",
+      "text": "Convolutional Neural Networks are widely used for image classification and object detection. #CNN #ComputerVision",
+      "created_at": "2026-11-14T14:20:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 96,
+        "retweet_count": 28,
+        "reply_count": 7,
+        "quote_count": 3
+      },
+      "entities": {
+        "hashtags": [
+          {"tag": "CNN"},
+          {"tag": "ComputerVision"}
+        ]
+      }
+    },
+    {
+      "id": "100005",
+      "author_id": "U002",
+      "text": "Open-source AI models are making artificial intelligence more accessible to developers and researchers. #GenAI #OpenSource",
+      "created_at": "2026-11-14T16:00:00.000Z",
+      "lang": "en",
+      "public_metrics": {
+        "like_count": 175,
+        "retweet_count": 42,
+        "reply_count": 15,
+        "quote_count": 6
+      },
+      "entities": {
+        "hashtags": [
+          {"tag": "GenAI"},
+          {"tag": "OpenSource"}
+        ]
+      }
+    }
+  ],
+  "includes": {
+    "users": [
+      {
+        "id": "U001",
+        "username": "ai_researcher",
+        "name": "AI Researcher",
+        "created_at": "2022-03-15T08:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 12500
+        },
+        "verified": false
+      },
+      {
+        "id": "U002",
+        "username": "ml_insights",
+        "name": "Machine Learning Insights",
+        "created_at": "2021-07-20T09:30:00.000Z",
+        "public_metrics": {
+          "followers_count": 8200
+        },
+        "verified": true
+      },
+      {
+        "id": "U003",
+        "username": "tech_explorer",
+        "name": "Technology Explorer",
+        "created_at": "2023-01-10T12:00:00.000Z",
+        "public_metrics": {
+          "followers_count": 4300
+        },
+        "verified": false
+      }
+    ]
+  },
+  "meta": {
+    "result_count": 5
+  }
+}
